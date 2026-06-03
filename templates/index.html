@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CloudHubPK Welcome App</title>
+
+    <style>
+        body{
+            background: linear-gradient(135deg,#0f172a,#1e293b);
+            color:white;
+            font-family:Arial;
+            text-align:center;
+            padding-top:100px;
+        }
+
+        .card{
+            width:60%;
+            margin:auto;
+            padding:40px;
+            border-radius:20px;
+            background:#ffffff10;
+            backdrop-filter: blur(10px);
+            box-shadow:0 0 20px rgba(255,255,255,0.2);
+        }
+
+        h1{
+            font-size:50px;
+            color:#38bdf8;
+        }
+
+        h2{
+            color:#facc15;
+        }
+
+        p{
+            font-size:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Welcome from CloudHubPK Community</h1>
+
+    <h2>DevOps Demo Class Application</h2>
+
+    <p>Application Successfully Deployed using GitHub Actions CI/CD</p>
+
+    <p><b>Server Hostname:</b> {{ hostname }}</p>
+
+    <p><b>Deployment Time:</b> {{ current_time }}</p>
+</div>
+
+</body>
+</html>
